@@ -1,0 +1,59 @@
+homeSuccess:
+  javascripts: [jquery.min.js, jquery-ui.min.js]
+  layout: layoutA
+  customize:
+    cautionAboutFriendPre:
+      template: [friend, cautionAboutFriendPre]
+      parts   : [information]
+      target  : [bodyBottom]
+    cautionAboutCommunityMemberPre:
+      template    : [community, cautionAboutCommunityMemberPre]
+      parts       : [information]
+      target      : [bodyBottom]
+      is_component: true 
+    cautionAboutChangeAdminRequest:
+      template    : [community, cautionAboutChangeAdminRequest]
+      parts       : [information]
+      target      : [bodyBottom]
+      is_component: true
+    cautionAboutSubAdminRequest:
+      template    : [community, cautionAboutSubAdminRequest]
+      parts       : [information]
+      target      : [bodyBottom]
+      is_component: true
+
+profileSuccess:
+  layout: layoutA
+
+configSuccess:
+  layout: layoutB
+
+loginSuccess:
+  layout: layoutA
+
+smtHomeSuccess:
+  layout: smtLayoutHome
+
+smtProfileSuccess:
+  layout: smtLayoutMember
+
+smtEditProfileSuccess:
+  layout: smtLayoutHome
+
+smtConfigSuccess:
+  layout: smtLayoutHome
+
+smtSearchSuccess:
+  layout: smtLayoutSns
+
+smtConfigImageSuccess:
+  layout: smtLayoutHome
+
+smtInviteInput:
+  layout: smtLayoutSns
+
+smtInviteSuccess:
+  layout: smtLayoutSns
+
+smtInviteError:
+  layout: smtLayoutSns

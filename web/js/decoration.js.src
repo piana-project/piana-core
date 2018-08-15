@@ -1,0 +1,155 @@
+/**
+ * This file is part of the OpenPNE package.
+ * (c) OpenPNE Project (http://www.openpne.jp/)
+ *
+ * For the full copyright and license information, please view the LICENSE
+ * file and the NOTICE file that were distributed with this source code.
+ */
+
+/**
+ * decoration.js
+ * 
+ * @author Shogo Kawahara <kawahara@tejimaya.net>
+ * @author Kimura Youichi <kim.upsilon@bucyou.net>
+ */
+
+function op_mce_insert_tagname(id, tagname, opt, start, end)
+{
+  opt = opt || "";
+
+  var elm = $('#' + id);
+
+  var selection = new Selection(elm[0]);
+  var pos = selection.create();
+  elm.focus();
+
+  start = (start == null || start == undefined) ? pos.start : start;
+  end   = (end == null || end == undefined)     ? pos.end   : end;
+
+  var replace = "<" + tagname + opt + ">" + elm.val().substring(start, end) + "</" + tagname + ">";
+
+  var head = elm.val().substring(0, start);
+  var tail = elm.val().substring(end, elm.val().length);
+  elm.val(head + replace + tail);
+}
+
+function op_mce_show_color_table(id, tagname)
+{
+  var table = $("#" + id + "_color_table");
+  var button = $("#" + id + "_button_op_color");
+  var button_container = $("#" + id + "_buttonmenu");
+
+  function close_color_table(e)
+  {
+    if (e && $(this).hasClass('disabledHideColorTable')) {
+      return;
+    }
+
+    table.hide();
+    $(document).unbind('mousedown', close_color_table);
+  }
+
+  if (table.length > 0) {
+    if (table.is(':hidden')) {
+      table.show();
+      $(document).bind('mousedown', close_color_table);
+    }
+    return;
+  }
+
+  $(document).bind('mousedown', close_color_table);
+
+  var color = null;
+  var settings = {
+    colors : ["000000","993300","333300","003300","003366","000080","333399","333333","800000","FF6600","808000","008000","008080","0000FF","666699","808080","FF0000","FF9900","99CC00","339966","33CCCC","3366FF","800080","999999","FF00FF","FFCC00","FFFF00","00FF00","00FFFF","00CCFF","993366","C0C0C0","FF99CC","FFCC99","FFFF99","CCFFCC","CCFFFF","99CCFF","CC99FF","FFFFFF"],
+    grid_width : 8,
+    default_color : "#888888"
+  };
+
+  var tbody = $("<tbody>", { "class": "disabledHideColorTable" });
+
+  var tr;
+
+  for (var i = 0; i < settings.colors.length; i++) {
+    var code = "#" + settings.colors[i];
+
+    if (i === 0 || i % settings.grid_width === 0) {
+      tr = $("<tr>", { "class": "disabledHideColorTable" });
+      tbody.append(tr);
+    }
+
+    var td = $("<td>", {
+      "class": "disabledHideColorTable",
+      css: {
+        border: "0 none",
+        width: "12px",
+        padding: "2px",
+        margin: "0"
+      }
+    });
+
+    var a = $("<a>", {
+      href: "#",
+      data: { colorCode: code },
+      "class": "disabledHideColorTable",
+      css: {
+        width: "9px",
+        height: "9px",
+        display: "block",
+        overflow: "hidden",
+        border: "1px solid #808080",
+        backgroundColor: "#" + settings.colors[i]
+      }
+    });
+    a.mousedown(function() {
+      op_mce_insert_tagname(id, tagname, ' color="' + $(this).data('colorCode') + '"');
+      close_color_table();
+      return false;
+    });
+
+    var span = $("<span>", {
+      css: { display: "none" }
+    });
+    span.append(document.createTextNode(code));
+
+    a.append(span);
+    td.append(a);
+    tr.append(td);
+  }
+
+  table = $("<table>", {
+    id: id + "_color_table",
+    "class": "disabledHideColorTable",
+    css: {
+      width: "auto",
+      position: "absolute",
+      zIndex: 150,
+      border: "1px solid gray",
+      backgroundColor: "#fff"
+    }
+  });
+  table.append(tbody);
+
+  button_container.append(table);
+  button_container.css("position", "relative");
+  button.css("display", "inline-block");
+
+  var buttonContainerPosition = button_container.offset();
+  var buttonPosition = button.offset();
+  table.css("left", buttonPosition.left - buttonContainerPosition.left + "px");
+  table.css("top",  buttonPosition.top - buttonContainerPosition.top + button.offsetHeight + "px");
+}
+
+function op_insert_str_to_selection(elm, str, start, end)
+{
+  var selection = new Selection(elm[0]);
+  var pos = selection.create();
+  elm.focus();
+  
+  start = (start == null || start == undefined) ? pos.start : start;
+  end   = (end == null || end == undefined)     ? pos.end   : end;
+
+  var head = elm.val().substring(0, pos.start);
+  var tail = elm.val().substring(pos.end, elm.val().length);
+  elm.val(head + str + tail);
+}

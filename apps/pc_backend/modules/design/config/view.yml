@@ -1,0 +1,18 @@
+gadgetSuccess:
+  javascripts:
+    - jquery.min.js
+
+gadgetPlotSuccess:
+  layout: plain
+  stylesheets: [-backend, gadgetPlot]
+  javascripts: [jquery.min.js, jquery-ui.min.js]
+
+addGadgetSuccess:
+  layout: plain
+  stylesheets: [-backend]
+  javascripts: [jquery.min.js]
+
+editGadgetSuccess:
+  layout: plain
+  stylesheets: [-backend]
+  javascripts: [jquery.min.js]

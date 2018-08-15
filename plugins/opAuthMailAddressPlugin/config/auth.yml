@@ -1,0 +1,24 @@
+invite_mode:
+  Default: 1
+
+enable_mobile:
+  Default: 1
+
+enable_pc:
+  Default: 1
+
+self_invite_action:
+  Default: "opAuthMailAddress/requestRegisterURL"
+
+help_login_error_action:
+  Name: "self_invite_action"
+  Caption:   ""
+  FormType:  ""
+  ValueType: ""
+  IsConfig:   false
+  IsRequired: false
+  Default: "opAuthMailAddress/helpLoginError"
+
+auth_mode_caption:
+  IsConfig: 0
+  Default: "E-mail Address Login"
