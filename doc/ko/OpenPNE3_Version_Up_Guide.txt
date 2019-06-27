@@ -1,0 +1,124 @@
+OpenPNE/openPNEK 3.8 업데이트 과정
+=========================
+
+개요
+------------
+
+이 문서는 OpenPNE 3.4.0 혹은 그 이상 버전에서 OpenPNE/openPNEK 3.8.x 버전으로 판올림하는 경우를 위한 것입니다.
+
+※판올림 전 반드시 데이터베이스를 백업해주세요.
+
+요약
+-----
+
+업데이트는 다음 과정을 거쳐 이뤄집니다:
+
+(1) 파일 설치
+(2) 설정 파일 수정
+(3) 판올림 명령어 실행
+
+업데이트 과정
+--------------
+
+파일 설치
+~~~~~~~~~~~~~
+
+OpenPNE/openPNEK 3.8 파일을 웹서버에 업로드해주세요.
+
+오래된 파일과 새 파일이 섞이는 일을 방지하기 위해,  덮어쓰기가 아닌 이름 바꾸기 모드로 파일을 올려야 합니다.
+
+설정 파일 수정
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+아래 지시에 따라 OpenPNE/openPNEK 3.8 설정 파일을 복사해주세요:
+
+::
+
+  $ cd /path/to/new/OpenPNE3
+  $ cp config/ProjectConfiguration.class.php.sample config/ProjectConfiguration.class.php
+  $ cp config/OpenPNE.yml.sample config/OpenPNE.yml
+
+주의: config/ProjectCofiguration.class.php 파일을 이전 버전으로부터 가져올 경우, 이전 버전의 파일을 기초로 새 파일을 변경해야합니다. 덮어씌워선 "안됩니다."
+
+그 후 옛 버전의 config/database.yml 파일을  새 config/database.yml로 덮어씌워주세요. 해당 작업이 끝나고 나면 OpenPNE.yml 설정 값을 환경에 맞게 바꾸어주셔야 합니다. 글 작성과 메일 발송을 위해, "base_url" 과 "mail_domain"이 잘 설정되어있는지 확인해주세요.
+
+::
+
+  $ cp /path/to/old/OpenPNE3/config/databases.yml /path/to/new/OpenPNE3/config/databases.yml
+  
+부가기능 폴더 복사하기
+~~~~~~~~~~~~~~~~~~~~~~~~~
+
+판올림할 새 버전에 동봉된 것보다 더 높은 버전의 부가기능이나 직접 설치한 부가기능을 사용하고자 하는 경우, 옛 부가기능 폴더를 복사하여 새 버전에 적용할 수 있습니다.
+
+::
+
+'-u' 옵션을 cp 명령어에 갖고 있는 CentOS, RHEL, Ubuntu 및 Debian 등의 배포판의 경우 다음 명령어를 입력해주세요.
+
+  $ cp -au /path/to/old/OpenPNE3/plugins/. /path/to/new/OpenPNE3/plugins
+
+macOS, FreeBSD 등 cp 명령어에 '-u' 옵션은 없지만 '-n' 옵션은 있는 OS의 경우 다음 명령어를 입력해주세요.
+
+  $ cp -an /path/to/old/OpenPNE3/plugins/. /path/to/new/OpenPNE3/plugins
+
+안내: 'man cp'를 입력하여 위 명령어를 사용할 수 있는지 확인하세요. 
+
+모델 재구축
+~~~~~~~~~~~~~~~
+
+프로젝트의 루트 경로에서, 다음을 실행하세요:
+
+::
+
+  $ ./symfony doctrine:build-model
+  $ ./symfony cc
+  
+다음 과정인 "판올림 명령어 실행"이 이 과정을 필요로 합니다.
+
+판올림 명령어 실행
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+프로젝트의 루트 경로에서, 다음을 실행하세요:
+
+::
+
+  $ ./symfony openpne:migrate
+  $ ./symfony plugin:publish-assets
+
+이 명령어가 OpenPNE/openPNEK와 부가기능을 설치하려는 새 버전으로 판올림해줄 것입니다. 
+
+OpenPNE 3.2.7.2, OpenPNE 3.4.9 혹은OpenPNE 3.6beta6 버전과 동일하거나 그보다 이른 버전을 사용하고 있다면 다음 명령어도 실행하세요.
+
+명령어 실행 전 아래 블로그 글도 확인해보세요.(일어이므로, 번역 확장기능이나 Chrome의 자체 번역 기능 등을 이용하여 읽기를 추천합니다. 추후 한국어로도 읽을 수 있도록 번역해두겠습니다.)
+
+http://www.openpne.jp/archives/5689/
+
+::
+
+  $ ./symfony openpne:fix-session-db
+
+이렇게 판올림 절차는 모두 마무리됩니다. 수고하셨습니다!
+
+주석
+====
+
+판올림 시에 읽어볼 만한 몇 가지 안내사항이 있습니다.
+
+* 3.6beta11 혹은 그 전 버전에서 판올림하는 경우, 다음 기능은 유지되지 않아 관리자 화면에서 사용 설정이 필요합니다.(pc_backend.php/sns/config/category/general).
+
+  * 언어 및 시간대 설정
+  * 외부 앱 연결 설정
+  * OpenID 설정
+
+* OpenPNE 3.8.0 버전부터 관리자 화면의 몇몇 기능은 '고급 설정'으로 옮겨갔습니다. 해당 기능은 다음과 같습니다:
+  * SNS > 일반 설정
+    - 활동 게시 설정
+    - JSON API
+    - OpenID 제공자
+    - 일간 소식지 수신 빈도
+    - 나이 공개 설정 기본값
+    - 회원 프로필 설정에서의 공개 설정 기본값
+    - 리치 텍스트(위지윅) 관련 설정
+
+  * SNS > 모바일 관련
+  * SNS > API 키
