@@ -4,6 +4,7 @@
 
 # OpenPNE3 / Piana
 > Copyright 2005-2018 OpenPNE Project
+
 > Copyright 2016-2019 Piana(a.k.a openPNEK) Maintainer paperbox and other contributors.
 
 이 제품은 OpenPNE 프로젝트를 통해 개발된 소프트웨어를 포함하고 있습니다.
