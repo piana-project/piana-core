@@ -22,7 +22,7 @@ OpenPNE의 향후 개발 계획과 OpenPNE 3.8.x의 지원 종료 시점을 고�
 
  * master 브랜치의 *Clone or Download* 기능을 이용해주세요.
  * 최신 안정판이라도 현재 피아나는 개발 도중이므로 문제가 발생할 수 있습니다. 정상 궤도에 오르면 분리 조치할 예정입니다.
- * 라이선스는 **Apache 2.0 License**입니다. LICENSE 파일로 전문을 조회하실 수 있습니다.
+ * 라이선스는 **Apache 2.0 License**입니다. [LICENSE](https://raw.githubusercontent.com/piana-project/piana-core/gh-pages/LICENSE) 파일로 전문을 조회하실 수 있습니다.
 
 ## 피아나와 OpenPNE의 차이점
 ### 현재 개발 진행 중인 사항
@@ -42,7 +42,7 @@ OpenPNE의 향후 개발 계획과 OpenPNE 3.8.x의 지원 종료 시점을 고�
 
 ## 기여하기
 ### 기본 안내사항
-모든 기여자는 CONTRIBUTORS.md 파일에 등재됩니다.
+모든 기여자는 [CONTRIBUTORS.md](./CONTRIBUTORS.html) 파일에 등재됩니다.
 
 *Pull Request*를 이용하므로 여러 사정에 의해 코드 변경이 거부될 수 있으나, 해당 부분의 경우 최대한 발생하지 않도록 조정하겠습니다.
 
@@ -57,12 +57,12 @@ OpenPNE의 향후 개발 계획과 OpenPNE 3.8.x의 지원 종료 시점을 고�
 
 별도의 시리즈가 아닌 공식 문서로 등재하려면 Official_Document_Registration_Guide.md를 참고하여 작성해주세요.
 
-OpenPNE의 공식 문서를 번역, 제공하고자 하는 경우에는 Official_Transalation_Guide.md의 "문서 번역" 관련 부분을 참고하여 번역해주세요.
+OpenPNE의 공식 문서를 번역, 제공하고자 하는 경우에는 [Official_Transalation_Guide.md](./Official_Translation_Guide.html)의 "문서 번역" 관련 부분을 참고하여 번역해주세요.
 
 ### 번역 돕기
 일본어 및 영어를 한국어로 번역하는 작업에 참여하실 수 있습니다. 마찬가지로 *Pull Request*를 이용해주세요.
 
-번역 문체 및 전반적인 번역 사항에 관한 내용은 Official_Translation_Guide.md를 참조해주세요.
+번역 문체 및 전반적인 번역 사항에 관한 내용은 [Official_Transalation_Guide.md](./Official_Translation_Guide.html)를 참조해주세요.
 
 ### 홍보하기
 더 많은 사람들이 *피아나* 프로젝트에 참가할 수 있도록,  다양한 매체로 참여를 유도해주세요. 이 경우 CONTRIBUTORS.md에 포함되지는 않지만, 여러분의 관심과 노력은 이 프로젝트 진행에 큰 힘이 됩니다.
