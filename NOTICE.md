@@ -1,11 +1,9 @@
-=========================================================================
-==  Apache 라이선스 버전 2.0이 적용된 안내 파일입니다.                    ==
-==  OpenPNE3/OpenPNEK3 배포판에 적용됩니다.                           ==
-=========================================================================
+**Apache 라이선스 버전 2.0이 적용된 안내 파일입니다.**
+**OpenPNE3/Piana 3.8배포판에 적용됩니다.**
 
-OpenPNE3 / OpenPNEK3
+OpenPNE3 / Piana
 Copyright 2005-2018 OpenPNE Project
-Copyright 2016-2018 OpenPNEK Maintainer paperbox
+Copyright 2016-2019 Piana(a.k.a openPNEK) Maintainer paperbox and other contributors.
 
 이 제품은 OpenPNE 프로젝트를 통해 개발된 소프트웨어를 포함하고 있습니다.
 OpenPNE 프로젝트 (http://www.openpne.jp/).
