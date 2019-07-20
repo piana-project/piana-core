@@ -1,7 +1,0 @@
-topSuccess:
-  javascripts: [jquery.min.js]
-
-templateHelpSuccess:
-  layout: plain
-  stylesheets: [main, -backend, template_help]
-

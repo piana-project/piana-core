@@ -1,5 +1,0 @@
-layoutA: [top, sideMenu, contents, bottom]
-layoutB: [sideMenu, contents, bottom]
-layoutC: [contents, bottom]
-layoutD: [contents]
-layoutE: [top, contents, bottom]
