@@ -85,7 +85,7 @@ OpenPNE의 공식 문서를 번역, 제공하고자 하는 경우에는 [Officia
  * 후원 계정은 카카오뱅크 3333-10-7400898입니다.(예금주: 윤정민)
 
 ## 문의하기
- * [OpenPNE 공식 웹사이트](http://openpne.jp)나 [피아나 공식 웹사이트](http://latios.pbdiary.pw/piana-project/)를 참조하세요.
+ * [OpenPNE 공식 웹사이트](http://openpne.jp)나 [피아나 공식 레포지터리](http://github.com/piana-project/piana-core)를 참조하세요.
  * 이슈트래커로 물어볼 수 있습니다.
  * 이슈트래커가 불편하시다면, [전자우편](mailto:lego37yoon@outlook.com)도 가능합니다.
 
