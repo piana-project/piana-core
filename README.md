@@ -10,6 +10,6 @@
 
 자세한 사항은 [피아나 공식 누리집](https://piana.cf)을 참조하세요.
 
- > ⓒ2016-2019 openPNEK / Piana Project
+ > ⓒ2016-2020 openPNEK / Piana Project
  
- > ⓒ2005-2019 OpenPNE Project
+ > ⓒ2005-2020 OpenPNE Project
