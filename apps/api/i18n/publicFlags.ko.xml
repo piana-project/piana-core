@@ -1,0 +1,23 @@
+<?xml version="1.0" ?>
+<xliff version="1.0">
+  <file orginal="global" source-language="en" datatype="plaintext">
+    <body>
+      <trans-unit id="1">
+        <source>All Users on the Web</source>
+        <target>전체공개</target>
+      </trans-unit>
+      <trans-unit id="2">
+        <source>All Members</source>
+        <target>회원에게만 공개</target>
+      </trans-unit>
+      <trans-unit id="3">
+        <source>%my_friend%</source>
+        <target>%my_friend%에게만 공개</target>
+      </trans-unit>
+      <trans-unit id="4">
+        <source>Private</source>
+        <target>비공개</target>
+      </trans-unit>
+    </body>
+  </file>
+</xliff>
