@@ -1,18 +1,17 @@
 =========================================================================
-==  Apache 라이선스 버전 2.0이 적용된 안내 파일입니다.                    ==
-==  OpenPNE3/OpenPNEK3 배포판에 적용됩니다.                           ==
+==  NOTICE file for use with the Apache License, Version 2.0,          ==
+==  in this case for the OpenPNE3 distribution.                        ==
 =========================================================================
 
-OpenPNE3 / OpenPNEK3
-Copyright 2005-2018 OpenPNE Project
-Copyright 2016-2018 OpenPNEK Maintainer paperbox
+OpenPNE3
+Copyright 2005-2009 OpenPNE Project
 
-이 제품은 OpenPNE 프로젝트를 통해 개발된 소프트웨어를 포함하고 있습니다.
-OpenPNE 프로젝트 (http://www.openpne.jp/).
-  - Apache 라이선스 2.0
-  - PHP 라이선스 3.01 (OpenPNE2)
+This product includes software developed at
+OpenPNE Project (http://www.openpne.jp/).
+  - Apache License 2.0
+  - PHP License 3.01 (OpenPNE2)
 
-이 제품은 다음 주체에서 개발한 소프트웨어를 포함하고 있습니다.
+This product includes also softwares developed by :
   - the symfony project (http://www.symfony-project.org/)
     - MIT License
   - Zend Technologies USA Inc. (http://www.zend.com/)
@@ -21,18 +20,26 @@ OpenPNE 프로젝트 (http://www.openpne.jp/).
     - Apache License 2.0
   - Andy Smith (http://term.ie/)
     - MIT License
+  - Ryan Parman, Geoffrey Sneddon
+    - BSD 3-clause License (SimplePie)
   - Fabien Potencier (http://fabien.potencier.org/)
     - MIT License
   - Kousuke Ebihara (http://co3k.org/)
     - Apache License 2.0
+  - Stig Bakken, Gregory Beaver, Helgi Þormar Þorbjörnsson, Tomas V.V.Cox, Martin Jansen
+    - BSD 2-clause License (PEAR)
+  - Greg Beaver
+    - BSD 2-clause License (PEAR_PackageFileManager2)
   - Vincent Oostindie, Alan Knowles, Peter Bowyer, Philippe Jausions
-    - PHP License 3.0 (PEAR::Image_Transform)
+    - PHP License 3.0 (Image_Transform)
+  - Harry Fuecks, Lorenzo Alberton
+    - BSD 3-clause License (Calendar)
 
-이 제품은 아래 서드파티 소프트웨어를 필수로 요구합니다.
+This product needs the third-party softwares listed blow to run.
   - PHP: Hypertext Preprocessor (5.2.4 +)
 
-이 제품은 다음과 같은 필수 라이브러리를 포함하고 있습니다.
-  - symfony 1.4.1
+This product includes dependent libraries listed blow:
+  - LExpress/symfony1 1.5.9 (fork of symfony 1.4)
   - Zend Framework 1.10.8 (partly)
     - Zend_Acl
     - Zend_Exception
@@ -48,6 +55,10 @@ OpenPNE 프로젝트 (http://www.openpne.jp/).
     - Zend_Version
   - Auth OpenID 2.1.2
   - PHP OAuth library
+  - SimplePie 1.4.3
   - sfFormExtraPlugin 1.0.12
   - sfImageHandlerPlugin 1.0.0
-  - PEAR::Image_Transform 0.9.3
+  - PEAR 1.10.3
+  - PEAR_PackageFileManager2 1.0.4
+  - Image_Transform 0.9.5
+  - Calendar 0.5.5

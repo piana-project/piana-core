@@ -31,11 +31,6 @@ class MemberConfigPcAddressForm extends MemberConfigForm
 
   public function saveConfig($name, $value)
   {
-    if ($name === 'captcha')
-    {
-      return;
-    }
-
     if ($name === 'pc_address')
     {
       $this->savePreConfig($name, $value);

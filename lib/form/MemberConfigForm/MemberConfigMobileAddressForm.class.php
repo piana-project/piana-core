@@ -31,11 +31,6 @@ class MemberConfigMobileAddressForm extends MemberConfigForm
 
   public function saveConfig($name, $value)
   {
-    if ($name === 'captcha')
-    {
-      return;
-    }
-
     if ($name === 'mobile_address')
     {
       $this->savePreConfig($name, $value);
