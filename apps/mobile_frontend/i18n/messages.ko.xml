@@ -120,187 +120,187 @@
       </trans-unit>
       <trans-unit id="">
         <source>Invite friends for %1%</source>
-        <target>友人を%1%に招待する</target>
+        <target>친구를 %1%(으)로 초대하기</target>
       </trans-unit>
       <trans-unit id="">
         <source>Edit %community%</source>
-        <target>%community%の編集</target>
+        <target>%community% 편집</target>
       </trans-unit>
       <trans-unit id="">
         <source>Create %community%</source>
-        <target>%community%の作成</target>
+        <target>%community% 생성</target>
       </trans-unit>
       <trans-unit id="">
         <source>Join %community%</source>
-        <target>%community%に参加する</target>
+        <target>%community%에 가입하기</target>
       </trans-unit>
       <trans-unit id="">
         <source>Quit %community%</source>
-        <target>%community%を退会する</target>
+        <target>%community%에서 나가기</target>
       </trans-unit>
       <trans-unit id="">
         <source>%Community% Members</source>
-        <target>%Community%ﾒﾝﾊﾞｰ</target>
+        <target>%Community% 회원</target>
       </trans-unit>
       <trans-unit>
         <source>Everyone can join</source>
-        <target>誰でも参加できる</target>
+        <target>누구나 가입 가능</target>
       </trans-unit>
       <trans-unit id="">
         <source>%Community%'s admin authorization needed</source>
-        <target>%Community%管理者の承認が必要</target>
+        <target>%Community% 관리자의 승인 필요</target>
       </trans-unit>
       <trans-unit id="">
         <source>You have received the request to take over administrator of "%1%".</source>
-        <target>「%1%」の管理者交代依頼を受け取っています。</target>
+        <target>%1%로부터 관리자 교체 요청을 받았습니다.</target>
       </trans-unit>
       <trans-unit id="">
         <source>Take over this %community%'s administrator to this member</source>
-        <target>管理権を渡す</target>
+        <target>관리자 권한 위임</target>
       </trans-unit>
       <trans-unit id="">
         <source>You are taking over this %community%'s administrator to this member now.</source>
-        <target>管理権交代依頼中</target>
+        <target>관리자 권한 위임을 요청하고 있습니다.</target>
       </trans-unit>
       <trans-unit id="">
         <source>Take over administrator of this community</source>
-        <target>管理者交代依頼</target>
+        <target>관리자 권한 위임 받아들이기</target>
       </trans-unit>
       <trans-unit id="">
         <source>Request this %community%'s sub-administrator to this member</source>
-        <target>副管理者を依頼する</target>
+        <target>부관리자 임명 요청</target>
       </trans-unit>
       <trans-unit id="">
         <source>You are requesting this %community%'s sub-administrator to this member now.</source>
-        <target>副管理者依頼中</target>
+        <target>부관리자로의 임명을 요청하고 있습니다.</target>
       </trans-unit>
       <trans-unit id="">
         <source>Demote this member from this %community%'s sub-administrator</source>
-        <target>副管理者から降格</target>
+        <target>부관리자 권한 박탈</target>
       </trans-unit>
       <trans-unit id="">
         <source>Request the sub-administrator of this community</source>
-        <target>副管理者依頼</target>
+        <target>부관리자 임명 요청</target>
       </trans-unit>
       <trans-unit id="">
         <source>Demotion of the sub-administrator of this %community%</source>
-        <target>副管理人から降格</target>
+        <target>부관리자 권한을 더 이상 이용할 수 없습니다.</target>
       </trans-unit>
       <trans-unit id="">
         <source>Do you demote %0% from this %community%'s sub-administrator?</source>
-        <target>%0%を副管理者から降格してもよろしいですか？</target>
+        <target>%0%의 부관리자 자리로부터 해임하시겠습니까?</target>
       </trans-unit>
       <trans-unit id="">
         <source>Description</source>
-        <target>説明文</target>
+        <target>설명</target>
       </trans-unit>
       <trans-unit id="">
         <source>Login Failed.</source>
-        <target>ﾛｸﾞｲﾝに失敗しました。</target>
+        <target>로그인에 실패하였습니다.</target>
       </trans-unit>
       <trans-unit id="">
         <source>Can't access this page.</source>
-        <target>このﾍﾟｰｼﾞにはｱｸｾｽできません。</target>
+        <target>이 페이지에는 접근할 수 없습니다.</target>
       </trans-unit>
       <trans-unit id="">
         <source>Please select the item from the menu.</source>
-        <target>ﾒﾆｭｰから設定したい項目を選択してください。</target>
+        <target>메뉴에서 항목을 선택하여 주세요.</target>
       </trans-unit>
       <trans-unit id="">
         <source>There is no available settings.</source>
-        <target>利用可能な設定はありません。</target>
+        <target>사용 가능한 설정이 없습니다.</target>
       </trans-unit>
       <trans-unit id="">
         <source>Successful in invite.</source>
-        <target>送信が完了しました。</target>
+        <target>초대에 성공했습니다.</target>
       </trans-unit>
       <trans-unit id="">
         <source>Invite is not available.</source>
-        <target>招待が許可されていません。</target>
+        <target>초대할 수 없습니다.</target>
       </trans-unit>
       <trans-unit id="">
         <source>This member is already %my_friend%.</source>
-        <target>既に%my_friend%です。</target>
+        <target>이 회원은 %my_friend%(으)로 등록되어 있습니다.</target>
       </trans-unit>
       <trans-unit id="">
         <source>%Friend% does not exist.</source>
-        <target>%Friend%がいません。</target>
+        <target>%Friend%(이)가 존재하지 않습니다.</target>
       </trans-unit>
       <trans-unit id="">
         <source>You are already joined to this %community%.</source>
-        <target>既に%community%に参加済みです。</target>
+        <target>이미 %community%에 가입되어 있습니다.</target>
       </trans-unit>
       <trans-unit id="">
         <source>You have already sent the participation request to this %community%.</source>
-        <target>既に%community%に参加申請済みです。</target>
+        <target>이미 %community% 가입 요청을 보냈습니다.</target>
       </trans-unit>
       <trans-unit id="">
         <source>You are waiting for the participation approval by %community%'s administrator.</source>
-        <target>%community%管理者による参加承認待ちです。</target>
+        <target>%community% 관리자로부터 가입 승인을 기다리고 있습니다.</target>
       </trans-unit>
       <trans-unit id="">
         <source>The administrator doesn't leave the %community%.</source>
-        <target>%community%管理者は退会することができません。</target>
+        <target>%community% 관리자는 탈퇴할 수 없습니다.</target>
       </trans-unit>
       <trans-unit id="">
         <source>You don't join this %community% yet.</source>
-        <target>%community%に参加していません。</target>
+        <target>%community%에 아직 가입하지 않았습니다.</target>
       </trans-unit>
       <trans-unit id="">
         <source>%Community% does not exist.</source>
-        <target>%Community%がありません。</target>
+        <target>%Community%(이)가 존재하지 않습니다.</target>
       </trans-unit>
       <trans-unit id="">
         <source>%Community% member does not exist.</source>
-        <target>%Community%ﾒﾝﾊﾞｰがいません。</target>
+        <target>%Community% 회원이 존재하지 않습니다.</target>
       </trans-unit>
       <trans-unit>
         <source>Do you drop %0% from this %community%?</source>
-        <target>%0%さんをこの%community%から本当に退会させますか?</target>
+        <target>%0%(을)를 %community%에서 추방하시겠습니까?</target>
       </trans-unit>
       <trans-unit id="">
         <source>Mobile UID is already setting.</source>
-        <target>個体識別番号が登録されています。</target>
+        <target>개인 식별 번호가 등록되어 있습니다.</target>
       </trans-unit>
       <trans-unit id="">
         <source>Setting mobile UID.</source>
-        <target>携帯個体識別番号を登録します。</target>
+        <target>개인 식별 번호를 설정하세요.</target>
       </trans-unit>
       <trans-unit id="">
         <source>Your mobile UID was not registered.</source>
-        <target>個体識別番号を登録できませんでした。</target>
+        <target>개인 식별 번호가 등록되어 있지 않습니다.</target>
       </trans-unit>
       <trans-unit id="">
         <source>Your mobile UID was set successfully.</source>
-        <target>個体識別番号が登録されました。</target> 
+        <target>개인 식별 번호를 성공적으로 등록하였습니다.</target> 
       </trans-unit>
       <trans-unit id="">
         <source>Your mobile UID was deleted successfully.</source>
-        <target>個体識別番号を削除しました。</target>
+        <target>개인 식별 번호를 성공적으로 삭제하였습니다.</target>
       </trans-unit>
       <trans-unit id="">
         <source>You register mobile UID.</source>
-        <target>携帯電話を登録します。</target>
+        <target>개인 식별 번호를 등록해주세요.</target>
       </trans-unit>
       <trans-unit id="">
         <source>Please input your password, and press "%1%" button.</source>
-        <target>ﾊﾟｽﾜｰﾄﾞを入力して、「%1%」ﾎﾞﾀﾝを押してください。</target>
+        <target>비밀번호를 입력하신 후, "%1%" 버튼을 눌러주세요.</target>
       </trans-unit>
       <trans-unit id="">
         <source>This is your page other member see.</source>
-        <target>他のﾒﾝﾊﾞｰから見たあなたのﾍﾟｰｼﾞはこのようになります。</target>
+        <target>이 페이지는 다른 회원도 볼 수 있습니다.</target>
       </trans-unit>
       <trans-unit id="">
         <source>If you edit profile, access %1%.</source>
-        <target>ﾌﾟﾛﾌｨｰﾙを変更する場合は%1%よりおこなえます。</target>
+        <target>프로필을 수정하고 싶으시다면, %1%(으)로 접속하세요.</target>
       </trans-unit>
       <trans-unit id="">
         <source>Can view this page with mobile only.</source>
-        <target>このページには携帯電話からのみアクセスできます。</target>
+        <target>이 페이지는 모바일에서만 보실 수 있습니다.</target>
       </trans-unit>
       <trans-unit id="">
         <source>The page for pc is here.</source>
-        <target>PC版ページはこちら</target>
+        <target>데스크톱 환경에서 보시려면 여기를 눌러주세요.</target>
       </trans-unit>
       <trans-unit id="">
         <source>Received from the %friend% link message from %1%!</source>
