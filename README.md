@@ -83,7 +83,7 @@ OpenPNE의 공식 문서를 번역, 제공하고자 하는 경우에는 [Officia
  * 아직 후원 계좌는 준비 중입니다.
 
 ## 문의하기
- * [OpenPNE 공식 웹사이트](http://openpne.jp)나 [피아나 공식 레포지터리](http://github.com/piana-project/piana-core)를 참조하세요.
+ * [OpenPNE 공식 웹사이트](http://openpne.jp)나 [피아나 공식 레포지터리](http://github.com/piana-project/piana-core)를 확인하여 주세요. 일부 문의사항은 피아나 프로젝트에서 답변드릴 수 없는 사항일 수 있습니다.
  * 이슈트래커로 물어볼 수 있습니다.
  * 이슈트래커가 불편하시다면, [전자우편](mailto:lego37yoon@outlook.com)도 가능합니다.
 
