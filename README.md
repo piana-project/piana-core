@@ -87,6 +87,6 @@ OpenPNE의 공식 문서를 번역, 제공하고자 하는 경우에는 [Officia
  * 이슈트래커로 물어볼 수 있습니다.
  * 이슈트래커가 불편하시다면, [전자우편](mailto:lego37yoon@outlook.com)도 가능합니다.
 
- > ⓒ2016-2020 openPNEK / Piana Project
+ > ⓒ2016-2021 openPNEK / Piana Project
  
- > ⓒ2005-2020 OpenPNE Project
+ > ⓒ2005-2021 OpenPNE Project
