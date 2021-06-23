@@ -11,18 +11,16 @@
 <?php op_smt_use_stylesheet('smt_main') ?>
 <?php op_smt_include_stylesheets() ?>
 <meta name="viewport" content="width=320,user-scalable=no" />
-<?php if (opConfig::get('enable_jsonapi') && opToolkit::isSecurePage()): ?>
+<?php if (opConfig::get('enable_jsonapi')): ?>
 <?php
 $jsonData = array(
-  'apiKey' => opToolkit::isSecurePage() ? $sf_user->getMemberApiKey() : '',
+  'apiKey' => $sf_user->getMemberApiKey(),
   'apiBase' => app_url_for('api', 'homepage'),
   'baseUrl' => $sf_request->getRelativeUrlRoot().'/',
 );
 
-$json = defined('JSON_PRETTY_PRINT') ? json_encode($jsonData, JSON_PRETTY_PRINT) : json_encode($jsonData);
-
 echo javascript_tag('
-var openpne = '.$json.';
+var openpne = '.json_encode($jsonData).';
 ');
 ?>
 <?php endif ?>

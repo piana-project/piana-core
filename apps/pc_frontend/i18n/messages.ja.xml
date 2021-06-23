@@ -1384,6 +1384,10 @@
         <target>リセット</target>
       </trans-unit>
       <trans-unit id="">
+        <source>Save</source>
+        <target>確定</target>
+      </trans-unit>
+      <trans-unit id="">
         <source>%Community% does not exist.</source>
         <target>%Community%がありません。</target>
       </trans-unit>
@@ -1394,6 +1398,10 @@
       <trans-unit id="">
         <source>%Friend% request from</source>
         <target>%Friend%申請</target>
+      </trans-unit>
+      <trans-unit id="">
+        <source>%Community% Information</source>
+        <target>%Community%情報</target>
       </trans-unit>
     </body>
   </file>

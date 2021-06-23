@@ -8,34 +8,29 @@
 <?php if (Doctrine::getTable('SnsConfig')->get('customizing_css')): ?>
 <link rel="stylesheet" type="text/css" href="<?php echo url_for('@customizing_css') ?>" />
 <?php endif; ?>
-<?php use_helper('Javascript'); ?>
-<?php if (opConfig::get('enable_jsonapi') && opToolkit::isSecurePage()): ?>
 <?php
-
-use_javascript('jquery.min.js');
-use_javascript('jquery.tmpl.min.js');
-use_javascript('jquery.notify.js');
-use_javascript('op_notify.js');
-$jsonData = array(
-  'apiKey' => $sf_user->getMemberApiKey(),
-  'apiBase' => app_url_for('api', 'homepage'),
-  'baseUrl' => $sf_request->getRelativeUrlRoot().'/',
-);
-
-$json = defined('JSON_PRETTY_PRINT') ? json_encode($jsonData, JSON_PRETTY_PRINT) : json_encode($jsonData);
+use_helper('Javascript');
+$jsonData = array('urlForUrl' => url_for('@url_for'));
+if (opConfig::get('enable_jsonapi'))
+{
+  if (opToolkit::isSecurePage())
+  {
+    use_javascript('jquery.tmpl.min.js');
+    use_javascript('jquery.notify.js');
+    use_javascript('op_notify.js');
+  }
+  $jsonData = array_merge(array(
+    'apiKey' => $sf_user->getMemberApiKey(),
+    'apiBase' => app_url_for('api', 'homepage'),
+    'baseUrl' => $sf_request->getRelativeUrlRoot().'/',
+  ), $jsonData);
+}
 
 echo javascript_tag('
-var openpne = '.$json.';
+var openpne = '.json_encode($jsonData).';
 ');
 ?>
-<?php endif ?>
 <?php include_javascripts() ?>
-<?php echo javascript_tag(<<<JS
-document.addEventListener('DOMContentLoaded', function() {
-  smtSwitch.initialize();
-});
-JS
-) ?>
 <?php echo $op_config->get('pc_html_head') ?>
 </head>
 <body id="<?php printf('page_%s_%s', $view->getModuleName(), $view->getActionName()) ?>" class="<?php echo opToolkit::isSecurePage() ? 'secure_page' : 'insecure_page' ?>">
@@ -113,6 +108,12 @@ include_component('default', 'localNav', $localNavOptions);
 <?php if ($sf_request->isSmartphone(false)): ?>
 <div id="SmtSwitch">
 <a href="javascript:void(0)" id="SmtSwitchLink"><?php echo __('View this page on smartphone style') ?></a>
+<?php echo javascript_tag('
+document.getElementById("SmtSwitchLink").addEventListener("click", function() {
+  opCookie.set("disable_smt", "0", undefined, openpne.baseUrl);
+  location.reload();
+}, false);
+') ?>
 </div>
 <?php endif ?>
 
