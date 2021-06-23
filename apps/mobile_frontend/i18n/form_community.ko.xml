@@ -16,7 +16,7 @@
       </trans-unit>
       <trans-unit id="4">
         <source>%community% Description</source>
-        <target>%community% 설명</target>
+        <target>%community% 소개</target>
       </trans-unit>
       <trans-unit id="5">
         <source>Invalid.</source>

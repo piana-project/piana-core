@@ -1,0 +1,19 @@
+<?xml version="1.0" ?>
+<xliff version="1.0">
+  <file orginal="global" source-language="ko" datatype="plaintext">
+    <body>
+      <trans-unit id="1">
+        <source>%community% Name</source>
+        <target>커뮤니티명</target>
+      </trans-unit>
+      <trans-unit id="2">
+        <source>%community% Category</source>
+        <target>커뮤니티 분류</target>
+      </trans-unit>
+      <trans-unit id="3">
+        <source>%community% Description</source>
+        <target>커뮤니티 소개</target>
+      </trans-unit>
+    </body>
+  </file>
+</xliff>

@@ -308,203 +308,203 @@
       </trans-unit>
       <trans-unit id="">
         <source>%1% send request for participation to %2%.</source>
-        <target>%1%から%2%への参加申請がきています</target>
+        <target>%1%이(가) %2% 참여 요청을 보냈습니다.</target>
       </trans-unit>
       <trans-unit id="">
         <source>if you already registered mail address, mail address is overwrited to new data.</source>
-        <target>ﾒｰﾙｱﾄﾞﾚｽが登録されている場合、新しいﾒｰﾙｱﾄﾞﾚｽに変更されます。</target>
+        <target>이미 이메일이 등록되어 있다면, 새 값으로 덮어씌워집니다.</target>
       </trans-unit>
       <trans-unit id="">
         <source>Click following URL, please. You can register in %1%.</source>
-        <target>以下のURLから%1%に登録してください。</target>
+        <target>URL을 클릭하여 %1%에 등록하세요.</target>
       </trans-unit>
       <trans-unit id="">
         <source>Delete your %1% account</source>
-        <target>%1%を退会する</target>
+        <target>%1% 계정 삭제</target>
       </trans-unit>
       <trans-unit id="">
         <source>You can not delete your account.</source>
-        <target>IDが1のﾒﾝﾊﾞｰは退会することができません。</target>
+        <target>삭제할 수 없는 계정입니다.</target>
       </trans-unit>
       <trans-unit id="">
         <source>Do you delete your %1% account?</source>
-        <target>本当に%1%から退会しますか？</target>
+        <target>%1% 계정을 삭제하시겠습니까?</target>
       </trans-unit>
       <trans-unit id="">
         <source>Please input your password if you want to delete your account.</source>
-        <target>退会する場合はﾊﾟｽﾜｰﾄﾞを入力してください｡</target>
+        <target>계정 삭제를 위해 비밀번호를 다시 입력해주세요.</target>
       </trans-unit>
       <trans-unit id="">
         <source>This member already belongs to %my_friend%.</source>
-        <target>このﾒﾝﾊﾞｰは既に%my_friend%です｡</target>
+        <target>이 회원은 이미 %my_friend%에 속해 있습니다.</target>
       </trans-unit>
       <trans-unit id="">
         <source>%Friend% request is already sent.</source>
-        <target>既に%Friend%申請済みです。</target>
+        <target>이미 %Friend% 요청을 발송하였습니다.</target>
       </trans-unit>
       <trans-unit id="">
         <source>You have requested %friend% link.</source>
-        <target>%friend%申請が完了しました。</target>
+        <target>%friend% 신청이 완료되었습니다.</target>
       </trans-unit>
       <trans-unit id="">
         <source>This member is not your %friend%.</source>
-        <target>%friend%ではありません。</target>
+        <target>%friend% (이)가 아닙니다.</target>
       </trans-unit>
       <trans-unit id="">
         <source>Add %my_friend%</source>
-        <target>%my_friend%に追加</target>
+        <target>%my_friend% (으)로 추가</target>
       </trans-unit>
       <trans-unit id="">
         <source>Message</source>
-        <target>ﾒｯｾｰｼﾞ</target>
+        <target>메시지</target>
       </trans-unit>
       <trans-unit id="">
         <source>Submit</source>
-        <target>送信</target>
+        <target>제출</target>
       </trans-unit>
       <trans-unit id="">
         <source>General Configuration</source>
-        <target>一般的な設定</target>
+        <target>기본 설정</target>
       </trans-unit>
       <trans-unit id="">
         <source>Public Flag Configuration</source>
-        <target>公開範囲設定</target>
+        <target>공개 여부 설정</target>
       </trans-unit>
       <trans-unit id="">
         <source>PC E-mail Address Configuration</source>
-        <target>PCﾒｰﾙｱﾄﾞﾚｽ設定</target>
+        <target>이메일 주소 설정</target>
       </trans-unit>
       <trans-unit id="">
         <source>PC E-mail Address</source>
-        <target>PCﾒｰﾙｱﾄﾞﾚｽ</target>
+        <target>이메일 주소</target>
       </trans-unit>
       <trans-unit id="">
         <source>PC E-mail Address (Confirm)</source>
-        <target>PCﾒｰﾙｱﾄﾞﾚｽ(確認)</target>
+        <target>이메일 주소 확인</target>
       </trans-unit>
       <trans-unit id="">
         <source>Mobile E-mail Address Configuration</source>
-        <target>携帯ﾒｰﾙｱﾄﾞﾚｽ設定</target>
+        <target>모바일 이메일 주소 설정</target>
       </trans-unit>
       <trans-unit id="">
         <source>Mobile E-mail Address</source>
-        <target>携帯ﾒｰﾙｱﾄﾞﾚｽ</target>
+        <target>모바일 이메일 주소</target>
       </trans-unit>
       <trans-unit id="">
         <source>Mobile E-mail Address (Confirm)</source>
-        <target>携帯ﾒｰﾙｱﾄﾞﾚｽ(確認)</target>
+        <target>모바일 이메일 주소 확인</target>
       </trans-unit>
       <trans-unit id="">
         <source>Password Configuration</source>
-        <target>ﾊﾟｽﾜｰﾄﾞ設定</target>
+        <target>비밀번호 설정</target>
       </trans-unit>
       <trans-unit id="">
         <source>Password</source>
-        <target>ﾊﾟｽﾜｰﾄﾞ</target>
+        <target>비밀번호</target>
       </trans-unit>
       <trans-unit id="">
         <source>Password (Confirm)</source>
-        <target>ﾊﾟｽﾜｰﾄﾞ(確認)</target>
+        <target>비밀번호 확인</target>
       </trans-unit>
       <trans-unit id="">
         <source>Password must be 6-12 characters.</source>
-        <target>ﾊﾟｽﾜｰﾄﾞは6～12文字の半角英数で入力してください。</target>
+        <target>비밀번호는 반드시 6-12자여야 합니다.</target>
       </trans-unit>
       <trans-unit id="">
         <source>Access Block Configuration</source>
-        <target>ｱｸｾｽﾌﾞﾛｯｸ設定</target>
+        <target>액세스 블록 설정</target>
       </trans-unit>
       <trans-unit id="">
         <source>Access Block</source>
-        <target>ｱｸｾｽﾌﾞﾛｯｸ</target>
+        <target>액세스 블록</target>
       </trans-unit>
       <trans-unit id="">
         <source>Your current password</source>
-        <target>現在のﾊﾟｽﾜｰﾄﾞ</target>
+        <target>현재 비밀번호</target>
       </trans-unit>
       <trans-unit id=""> 
         <source>Back to previous page</source>
-        <target>前のﾍﾟｰｼﾞに戻る</target>
+        <target>이전 페이지로</target>
       </trans-unit>
       <trans-unit id="">
         <source>Message(Arbitrary)</source>
-        <target>ﾒｯｾｰｼﾞ(任意)</target>
+        <target>임의 메시지</target>
       </trans-unit>
       <trans-unit id="">
         <source>Photo</source>
-        <target>写真</target>
+        <target>사진</target>
       </trans-unit>
       <trans-unit id="">
         <source>Show Photo</source>
-        <target>写真を見る</target>
+        <target>사진 보기</target>
       </trans-unit>
       <trans-unit id="">
         <source>Edit Photo</source>
-        <target>写真編集</target>
+        <target>사진 수정</target>
       </trans-unit>
       <trans-unit id="">
         <source>Main Photo</source>
-        <target>ﾒｲﾝ写真</target>
+        <target>메인 사진</target>
       </trans-unit>
       <trans-unit id="">
         <source>There are no photos.</source>
-        <target>写真は登録されていません。</target>
+        <target>사진이 없습니다.</target>
       </trans-unit>
       <trans-unit id="">
         <source>%1%'s Profile</source>
-        <target>%1%さんのﾌﾟﾛﾌｨｰﾙ</target>
+        <target>%1% 님의 프로필</target>
       </trans-unit>
       <trans-unit id="">
         <source>Expansion</source>
-        <target>大</target>
+        <target>확장</target>
       </trans-unit>
       <trans-unit id="">
         <source>%community% Name</source>
-        <target>%community%名</target>
+        <target>%community% 이름</target>
       </trans-unit>
       <trans-unit id="">
         <source>Date Created</source>
-        <target>開設日</target>
+        <target>생성일</target>
       </trans-unit>
       <trans-unit id="">
         <source>Administrator</source>
-        <target>管理者</target>
+        <target>관리자</target>
       </trans-unit>
       <trans-unit id="">
         <source>Sub Administrator</source>
-        <target>副管理者</target>
+        <target>부관리자</target>
       </trans-unit>
       <trans-unit id="">
         <source>Count of Members</source>
-        <target>ﾒﾝﾊﾞｰ数</target>
+        <target>회원 수</target>
       </trans-unit>
       <trans-unit id="">
         <source>Search</source>
-        <target>検索</target>
+        <target>검색</target>
       </trans-unit>
       <trans-unit id="">
         <source>Create a new %community%</source>
-        <target>%community%作成</target>
+        <target>새 %community% 만들기</target>
       </trans-unit>
       <trans-unit id="">
         <source>Search %Community%</source>
-        <target>%Community%検索</target>
+        <target>%Community% 검색</target>
       </trans-unit>
       <trans-unit id="">
         <source>%Community% Top</source>
-        <target>%Community% ﾄｯﾌﾟ</target>
+        <target>%Community% 순위</target>
       </trans-unit>
       <trans-unit id="">
         <source>Categories</source>
-        <target>ｶﾃｺﾞﾘ</target>
+        <target>분류</target>
       </trans-unit>
       <trans-unit id="">
         <source>Your search queries did not match any %community%.</source>
-        <target>該当する%community%はありませんでした。</target>
+        <target>검색어와 일치하는 %community% (이)가 존재하지 않습니다.</target>
       </trans-unit>
       <trans-unit id="">
         <source>All categories</source>
-        <target>すべてのｶﾃｺﾞﾘ</target>
+        <target>전체 분류</target>
       </trans-unit>
       <trans-unit id="">
         <source>%nickname%</source>
@@ -512,432 +512,432 @@
       </trans-unit>
       <trans-unit id="">
         <source>Search Members</source>
-        <target>ﾒﾝﾊﾞｰ検索</target>
+        <target>회원 검색</target>
       </trans-unit>
       <trans-unit id="">
         <source>Your search queries did not match any members.</source>
-        <target>該当するメンバーはいませんでした。</target>
+        <target>검색어와 일치하는 회원이 없습니다.</target>
       </trans-unit>
       <trans-unit id="">
         <source>delete this %community%.if you delete this %community% please to report in advance for all this %community% members.</source>
-        <target>この%community%を削除します。この%community%を削除する場合は、事前にこの%community%のメンバーに報告してください。</target>
+        <target>이 %community%(을)를 삭제합니다. 삭제 전 %community%의 모든 회원에게 통보하세요.</target>
       </trans-unit>
       <trans-unit id="">
         <source>Delete</source>
-        <target>削除</target>
+        <target>삭제</target>
       </trans-unit>
       <trans-unit id="">
         <source>Delete this %community%</source>
-        <target>%community%を削除する</target>
+        <target>이 %community% 삭제</target>
       </trans-unit>
       <trans-unit id="">
         <source>Do you delete this %community%?</source>
-        <target>削除してよろしいですか？</target>
+        <target>이 %community%(을)를 삭제하시겠습니까?</target>
       </trans-unit>
       <trans-unit id="">
         <source>Yes</source>
-        <target>はい</target>
+        <target>네</target>
       </trans-unit>
       <trans-unit id="">
         <source>No</source>
-        <target>いいえ</target>
+        <target>아니오</target>
       </trans-unit>
       <trans-unit>
         <source>%0% is required field.</source>
-        <target>%0%は必須項目です。</target>
+        <target>%0% (은)는 필수 항목입니다.</target>
       </trans-unit>
       <trans-unit id="">
         <source>Please Select</source>
-        <target>選択してください</target>
+        <target>선택하세요</target>
       </trans-unit>
 
       <trans-unit id="">
         <source>Invalid.</source>
-        <target>正しくありません。</target>
+        <target>잘못된 값입니다.</target>
       </trans-unit>
       <trans-unit id="">
         <source>Required.</source>
-        <target>必須項目です。</target>
+        <target>필수 항목입니다.</target>
       </trans-unit>
       <trans-unit id="">
         <source>CSRF attack detected.</source>
-        <target>前の画面を読み直して、操作をやり直してください。</target>
+        <target>이전 페이지로 돌아가 다시 시도하세요.</target>
       </trans-unit>
       <trans-unit id="">
         <source>"%value%" does not match the date format (%date_format%).</source>
-        <target>%date_format%形式で入力してください。</target>
+        <target>%date_format%에 맞게 입력해주세요.</target>
       </trans-unit>
       <trans-unit id="">
         <source>The date must be before %max%.</source>
-        <target>%max%以前にしてください。</target>
+        <target>%max% 이전으로 설정해주세요.</target>
       </trans-unit>
       <trans-unit id="">
         <source>The date must be after %min%.</source>
-        <target>%min%以降にしてください。</target>
+        <target>%min% 이후로 설정해주세요.</target>
       </trans-unit>
       <trans-unit id="">
         <source>The begin date must be before the end date.</source>
-        <target>開始日時は終了日時の前にしてください。</target>
+        <target>시작일은 종료일 이전이어야 합니다.</target>
       </trans-unit>
       <trans-unit id="">
         <source>File is too large (maximum is %max_size% bytes).</source>
-        <target>ﾌｧｲﾙｻｲｽﾞが大きすぎます。(最大 %max_size% bytes まで)</target>
+        <target>파일 크기가 너무 큽니다 (최대 %max_size% bytes).</target>
       </trans-unit>
       <trans-unit id="">
         <source>Invalid mime type (%mime_type%).</source>
-        <target>ﾌｧｲﾙ形式が間違っています。</target>
+        <target>허용되지 않는 파일 형식입니다.</target>
       </trans-unit>
       <trans-unit id="">
         <source>The uploaded file was only partially uploaded.</source>
-        <target>ﾌｧｲﾙｱｯﾌﾟﾛｰﾄﾞに失敗しました。</target>
+        <target>파일이 제대로 업로드되지 않았습니다.</target>
       </trans-unit>
       <trans-unit id="">
         <source>Missing a temporary folder.</source>
-        <target>ﾌｧｲﾙｱｯﾌﾟﾛｰﾄﾞに失敗しました。</target>
+        <target>파일 업로드에 실패하였습니다.</target>
       </trans-unit>
       <trans-unit id="">
         <source>Failed to write file to disk.</source>
-        <target>ﾌｧｲﾙｱｯﾌﾟﾛｰﾄﾞに失敗しました。</target>
+        <target>저장소에 파일을 쓰지 못했습니다.</target>
       </trans-unit>
       <trans-unit id="">
         <source>File upload stopped by extension.</source>
-        <target>ﾌｧｲﾙ拡張子が対応していません。</target>
+        <target>지원하지 않는 확장자입니다.</target>
       </trans-unit>
       <trans-unit id="">
         <source>Unexpected extra form field named "%field%".</source>
-        <target>正しくありません。</target>
+        <target>잘못된 값입니다.</target>
       </trans-unit>
       <trans-unit id="">
         <source>The form submission cannot be processed. It probably means that you have uploaded a file that is too big.</source>
-        <target>フォームの送信に失敗しました。アップロードしたファイルが大きすぎる可能性があります。</target>
+        <target>양식 제출에 실패하였습니다. 파일 크기가 너무 크기 때문일 수 있습니다.</target>
       </trans-unit>
       <trans-unit id="">
         <source>"%value%" is not an integer.</source>
-        <target>整数ではありません。</target>
+        <target>정수로 입력해주세요.</target>
       </trans-unit>
       <trans-unit id="">
         <source>"%value%" is not a number.</source>
-        <target>数値ではありません。</target>
+        <target>숫자로 입력해주세요.</target>
       </trans-unit>
       <trans-unit id="">
         <source>"%value%" must be less than %max%.</source>
-        <target>%max%以下にしてください。</target>
+        <target>%max% 이하여야 합니다.</target>
       </trans-unit>
       <trans-unit id="">
         <source>"%value%" must be greater than %min%.</source>
-        <target>%min%以上にしてください。</target>
+        <target>%min% 이상이어야 합니다.</target>
       </trans-unit>
       <trans-unit id="">
         <source>"%value%" is too long (%max_length% characters max).</source>
-        <target>%max_length%文字以内で入力してください。</target>
+        <target>%max_length%자 이하여야 합니다.</target>
       </trans-unit>
       <trans-unit id="">
         <source>"%value%" is too short (%min_length% characters min).</source>
-        <target>%min_length%文字以上で入力してください。</target>
+        <target>%min_length%자 이상이어야 합니다.</target>
       </trans-unit>
       <trans-unit id="">
         <source>password is too long (%max_length% characters max).</source>
-        <target>%max_length%文字以内で入力してください。</target>
+        <target>%max_length%자 이하여야 합니다.</target>
       </trans-unit>
       <trans-unit id="">
         <source>password is too short (%min_length% characters min).</source>
-        <target>%min_length%文字以上で入力してください。</target>
+        <target>%min_length%자 이상이어야 합니다.</target>
       </trans-unit>
       <trans-unit id="">
         <source>"%value%" does not match the time format (%time_format%).</source>
-        <target>%time_format%形式で入力してください。</target>
+        <target>%time_format% 형식과 일치하지 않습니다.</target>
       </trans-unit>
       <trans-unit id="">
         <source>invalid e-mail address</source>
-        <target>ﾒｰﾙｱﾄﾞﾚｽが無効です</target>
+        <target>잘못된 이메일 주소입니다</target>
       </trans-unit>
       <trans-unit id="">
         <source>Manage member</source>
-        <target>ﾒﾝﾊﾞｰ管理</target>
+        <target>회원 관리</target>
       </trans-unit>
       <trans-unit id="">
         <source>Drop this member</source>
-        <target>退会させる</target>
+        <target>이 회원 강퇴</target>
       </trans-unit>
       <trans-unit id="">
         <source>Detail of %community%</source>
-        <target>%community%詳細</target>
+        <target>%community% 세부 정보</target>
       </trans-unit>
       <trans-unit id="">
         <source>An object with the same "%column%" already exist.</source>
-        <target>その %column% は既に使われています。</target>
+        <target>동일한 이름의 %column%(이)가 이미 존재합니다.</target>
       </trans-unit>
       <trans-unit id="">
         <source>Send E-mail that has a photo to use as your image.</source>
-        <target>ﾒｰﾙを送信して写真を登録してください。</target>
+        <target>사용할 사진을 이메일로 발송하세요.</target>
       </trans-unit>
       <trans-unit id="">
         <source>Send E-mail</source>
-        <target>ﾒｰﾙ送信</target>
+        <target>이메일 발송</target>
       </trans-unit>
       <trans-unit id="">
         <source>Delete Photo</source>
-        <target>写真削除</target>
+        <target>사진 삭제</target>
       </trans-unit>
       <trans-unit id="">
         <source>Do you delete this photo?</source>
-        <target>この写真を削除しますか？</target>
+        <target>이 사진을 삭제하시겠습니까?</target>
       </trans-unit>
       <trans-unit id="">
         <source>Edit %community% Photo</source>
-        <target>%community%写真編集</target>
+        <target>%community% 사진 수정</target>
       </trans-unit>
       <trans-unit id="">
         <source>This %community% doesn't have a photo.</source>
-        <target>まだ%community%に写真が登録されていません。</target>
+        <target>이 %community%에 사진이 없습니다.</target>
       </trans-unit>
       <trans-unit id="">
         <source>Send E-mail that has a photo to use as %community%'s image.</source>
-        <target>ﾒｰﾙを送信して%community%の写真を登録してください。</target>
+        <target>%community%에 사용할 사진을 이메일로 발송하세요.</target>
       </trans-unit>
       <trans-unit id="">
         <source>This %community% already has a photo. If you want to register a new one, you must delete this photo.</source>
-        <target>既に%community%に写真が登録されています。新しい写真を登録したい場合は、古い画像を削除してください。</target>
+        <target>이 %community% 의 사진은 이미 설정되어 있습니다. 새로 설정하시려면, 기존 사진을 삭제해주세요.</target>
       </trans-unit>
       <trans-unit id="">
         <source>Happy Birthday!</source>
-        <target>今日は誕生日です</target>
+        <target>생일 축하드립니다!</target>
       </trans-unit>
       <trans-unit id="">
         <source>It is member's birthday soon.</source>
-        <target>もうすぐ誕生日です</target>
+        <target>이 회원의 생일이 다가오고 있습니다.</target>
       </trans-unit>
       <trans-unit id="">
         <source>Please login to visit this page</source>
-        <target>このﾍﾟｰｼﾞを見るにはﾛｸﾞｲﾝが必要です</target>
+        <target>로그인하여 이 페이지에 접속하세요</target>
       </trans-unit>
       <trans-unit id="">
         <source>Man</source>
-        <target>男性</target>
+        <target>남성</target>
       </trans-unit>
       <trans-unit id="">
         <source>Female</source>
-        <target>女性</target>
+        <target>여성</target>
       </trans-unit>
       <trans-unit id="">
         <source>Hokkaido</source>
-        <target>北海道</target>
+        <target>홋카이도</target>
       </trans-unit>
       <trans-unit id="">
         <source>Aomori</source>
-        <target>青森県</target>
+        <target>아오모리</target>
       </trans-unit>
       <trans-unit id="">
         <source>Iwate</source>
-        <target>岩手県</target>
+        <target>이와테</target>
       </trans-unit>
       <trans-unit id="">
         <source>Miyagi</source>
-        <target>宮城県</target>
+        <target>미야기</target>
       </trans-unit>
       <trans-unit id="">
         <source>Akita</source>
-        <target>秋田県</target>
+        <target>아키타</target>
       </trans-unit>
       <trans-unit id="">
         <source>Yamagata</source>
-        <target>山形県</target>
+        <target>야마가타</target>
       </trans-unit>
       <trans-unit id="">
         <source>Fukushima</source>
-        <target>福島県</target>
+        <target>후쿠시마</target>
       </trans-unit>
       <trans-unit id="">
         <source>Ibaraki</source>
-        <target>茨城県</target>
+        <target>이바라키</target>
       </trans-unit>
       <trans-unit id="">
         <source>Tochigi</source>
-        <target>栃木県</target>
+        <target>돗치기</target>
       </trans-unit>
       <trans-unit id="">
         <source>Gunma</source>
-        <target>群馬県</target>
+        <target>군마</target>
       </trans-unit>
       <trans-unit id="">
         <source>Saitama</source>
-        <target>埼玉県</target>
+        <target>사이타마</target>
       </trans-unit>
       <trans-unit id="">
         <source>Chiba</source>
-        <target>千葉県</target>
+        <target>치바</target>
       </trans-unit>
       <trans-unit id="">
         <source>Tokyo</source>
-        <target>東京都</target>
+        <target>도쿄</target>
       </trans-unit>
       <trans-unit id="">
         <source>Kanagawa</source>
-        <target>神奈川県</target>
+        <target>카나가와</target>
       </trans-unit>
       <trans-unit id="">
         <source>Niigata</source>
-        <target>新潟県</target>
+        <target>니가타</target>
       </trans-unit>
       <trans-unit id="">
         <source>Toyama</source>
-        <target>富山県</target>
+        <target>토야마</target>
       </trans-unit>
       <trans-unit id="">
         <source>Ishikawa</source>
-        <target>石川県</target>
+        <target>이시카와</target>
       </trans-unit>
       <trans-unit id="">
         <source>Fukui</source>
-        <target>福井県</target>
+        <target>후쿠이</target>
       </trans-unit>
       <trans-unit id="">
         <source>Yamanashi</source>
-        <target>山梨県</target>
+        <target>야마나시</target>
       </trans-unit>
       <trans-unit id="">
         <source>Nagano</source>
-        <target>長野県</target>
+        <target>나가노</target>
       </trans-unit>
       <trans-unit id="">
         <source>Gifu</source>
-        <target>岐阜県</target>
+        <target>기후</target>
       </trans-unit>
       <trans-unit id="">
         <source>Shizuoka</source>
-        <target>静岡県</target>
+        <target>시즈오카</target>
       </trans-unit>
       <trans-unit id="">
         <source>Aichi</source>
-        <target>愛知県</target>
+        <target>아이치</target>
       </trans-unit>
       <trans-unit id="">
         <source>Mie</source>
-        <target>三重県</target>
+        <target>미에</target>
       </trans-unit>
       <trans-unit id="">
         <source>Shiga</source>
-        <target>滋賀県</target>
+        <target>시가</target>
       </trans-unit>
       <trans-unit id="">
         <source>Kyoto</source>
-        <target>京都府</target>
+        <target>쿄토</target>
       </trans-unit>
       <trans-unit id="">
         <source>Osaka</source>
-        <target>大阪府</target>
+        <target>오사카</target>
       </trans-unit>
       <trans-unit id="">
         <source>Hyogo</source>
-        <target>兵庫県</target>
+        <target>효고</target>
       </trans-unit>
       <trans-unit id="">
         <source>Nara</source>
-        <target>奈良県</target>
+        <target>나라</target>
       </trans-unit>
       <trans-unit id="">
         <source>Wakayama</source>
-        <target>和歌山県</target>
+        <target>와카야마</target>
       </trans-unit>
       <trans-unit id="">
         <source>Tottori</source>
-        <target>鳥取県</target>
+        <target>돗토리</target>
       </trans-unit>
       <trans-unit id="">
         <source>Shimane</source>
-        <target>島根県</target>
+        <target>시마네</target>
       </trans-unit>
       <trans-unit id="">
         <source>Okayama</source>
-        <target>岡山県</target>
+        <target>오카야마</target>
       </trans-unit>
       <trans-unit id="">
         <source>Hiroshima</source>
-        <target>広島県</target>
+        <target>히로시마</target>
       </trans-unit>
       <trans-unit id="">
         <source>Yamaguchi</source>
-        <target>山口県</target>
+        <target>야마구치</target>
       </trans-unit>
       <trans-unit id="">
         <source>Tokushima</source>
-        <target>徳島県</target>
+        <target>토쿠시마</target>
       </trans-unit>
       <trans-unit id="">
         <source>Kagawa</source>
-        <target>香川県</target>
+        <target>카가와</target>
       </trans-unit>
       <trans-unit id="">
         <source>Ehime</source>
-        <target>愛媛県</target>
+        <target>에히메</target>
       </trans-unit>
       <trans-unit id="">
         <source>Kochi</source>
-        <target>高知県</target>
+        <target>고치</target>
       </trans-unit>
       <trans-unit id="">
         <source>Fukuoka</source>
-        <target>福岡県</target>
+        <target>후쿠오카</target>
       </trans-unit>
       <trans-unit id="">
         <source>Saga</source>
-        <target>佐賀県</target>
+        <target>사가</target>
       </trans-unit>
       <trans-unit id="">
         <source>Nagasaki</source>
-        <target>長崎県</target>
+        <target>나가사키</target>
       </trans-unit>
       <trans-unit id="">
         <source>Kumamoto</source>
-        <target>熊本県</target>
+        <target>쿠마모토</target>
       </trans-unit>
       <trans-unit id="">
         <source>Oita</source>
-        <target>大分県</target>
+        <target>오이타</target>
       </trans-unit>
       <trans-unit id="">
         <source>Miyazaki</source>
-        <target>宮崎県</target>
+        <target>미야자키</target>
       </trans-unit>
       <trans-unit id="">
         <source>Kagoshima</source>
-        <target>鹿児島県</target>
+        <target>카고시마</target>
       </trans-unit>
       <trans-unit id="">
         <source>Okinawa</source>
-        <target>沖縄県</target>
+        <target>오키나와</target>
       </trans-unit>
       <trans-unit id="">
         <source>Sex</source>
-        <target>性別</target>
+        <target>성별</target>
       </trans-unit>
       <trans-unit id="">
         <source>Birthday</source>
-        <target>誕生日</target>
+        <target>생일</target>
       </trans-unit>
       <trans-unit id="">
         <source>Country</source>
-        <target>国または地域</target>
+        <target>국가</target>
       </trans-unit>
       <trans-unit id="">
         <source>Region</source>
-        <target>都市（都道府県や州など）</target>
+        <target>지역</target>
       </trans-unit>
       <trans-unit id="">
         <source>Region in Japan</source>
-        <target>都道府県</target>
+        <target>일본 내 지역</target>
       </trans-unit>
       <trans-unit id="">
         <source>Postal Code</source>
-        <target>郵便番号</target>
+        <target>우편번호</target>
       </trans-unit>
       <trans-unit id="">
         <source>Telephone Number</source>
-        <target>電話番号</target>
+        <target>전화번호</target>
       </trans-unit>
       <trans-unit id="">
         <source>Self Introduction</source>
-        <target>自己紹介</target>
+        <target>자기소개</target>
       </trans-unit>
       <trans-unit id="">
         <source>Notify of Your Registering</source>
