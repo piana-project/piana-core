@@ -8,8 +8,8 @@
 
 *피아나*라는 이름은 OpenPNE를 *오픈피네*와 같이 읽을 수 있어, 이 *피네*에서 피어나다→피아나와 같은 변형을 거쳐 탄생했습니다.
 
-자세한 사항은 [피아나 공식 누리집](https://piana.cf)을 참조하세요.
+자세한 사항은 [피아나 공식 누리집](https://piana.paperbox.moe)을 참조하세요.
 
- > ⓒ2016-2020 openPNEK / Piana Project
+ > ⓒ2016-2022 openPNEK / Piana Project
  
- > ⓒ2005-2020 OpenPNE Project
+ > ⓒ2005-2022 OpenPNE Project
